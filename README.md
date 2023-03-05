@@ -3,7 +3,7 @@ A pure Javascript Script loading manager
 
 # How To Use:
 
-```
+```javascript
  const scriptLoader = new ScriptLoader([
           { src: 'script1.js', async: false, defer: false },
           { src: 'script2.js', async: true, defer: false },
