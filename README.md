@@ -1,6 +1,22 @@
 # SuperScriptLoader
 A pure Javascript Script loading manager
 
+# Example:
+
+```
+ const scriptLoader = new ScriptLoader([
+          { src: 'script1.js', async: false, defer: false },
+          { src: 'script2.js', async: true, defer: false },
+          { src: 'script3.js', async: false, defer: true },
+          ]);
+          
+ scriptLoader.loadScripts();
+  
+```
+
+
+
+# Lincese
 
 A pure Javascript Script loading manager - Copyright (C) 2023 Fabio F.G. Buono
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License 
