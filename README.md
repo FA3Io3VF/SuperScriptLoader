@@ -1,7 +1,7 @@
 # SuperScriptLoader
 A pure Javascript Script loading manager
 
-# Example:
+# How To Use:
 
 ```
  const scriptLoader = new ScriptLoader([
